@@ -10,11 +10,6 @@ import ReactGA from 'react-ga';
 const Home = () => {
   const trackingId = "G-J7H9CWJJVV";
   ReactGA.initialize(trackingId);
-  ReactGA.set({
-    userId: auth.currentUserId(),
-    // any data that is relevant to the user session
-    // that you would like to track with google analytics
-  })
   return (
     <Layout>
       <Section grid>
