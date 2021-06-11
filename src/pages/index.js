@@ -8,7 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import ReactGA from 'react-ga';
 const Home = () => {
-  const trackingId = "UA-166654442-1";
+  const trackingId = "G-J7H9CWJJVV";
   ReactGA.initialize(trackingId);
   ReactGA.set({
     userId: auth.currentUserId(),
