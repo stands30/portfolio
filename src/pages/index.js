@@ -8,8 +8,12 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import ReactGA from 'react-ga';
 const Home = () => {
-  const trackingId = "G-J7H9CWJJVV";
-  ReactGA.initialize(trackingId);
+  const trackingId = "G-EJH6XK9HZH";
+  console.log( ReactGA.initialize( trackingId ) );
+  ReactGA.event({
+    category: "Sign Up",
+    action: "User pressed the big blue sign up button",
+  });
   return (
     <Layout>
       <Section grid>
