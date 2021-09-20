@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Cryptoverse',
+    description:"A Cryptocurrency App (Cryptoverse) where all information regarding the Cryptocurrency can be found eg. News, Crypto Exchanges, Crypto Statistics",
+    image: '/images/cryptoverse.jpeg',
+    tags: [ 'React Js', ' Redux Toolkit', ' RapidAPI' ],
+    source: 'https://cryptoverse-report.netlify.app/',
+    visit: 'https://cryptoverse-report.netlify.app/',
+    id: 0,
+  },
+  {
     title: 'Covid-19 Global Tracker',
     description: "Using React Js have developed global covid cases tracker, where one can track covid cases in each country ",
       image: '/images/globaltracker.png',
       tags: ['React', 'Material UI'],
     source: 'https://covid19globaltracker.herokuapp.com/',
     visit: 'https://covid19globaltracker.herokuapp.com/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'SLT Industries',
@@ -15,7 +24,7 @@ export const projects = [
     tags: [ 'Codeingiter', 'Javascript'],
     source: 'https://printzonedigitalpartner.sltindustries.com/',
     visit: 'https://printzonedigitalpartner.sltindustries.com/',
-    id: 1,
+    id: 2,
   },
   // {
   //   title: 'WebRTC App',
