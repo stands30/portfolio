@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Cryptoverse',
-    description:"A Cryptocurrency App (Cryptoverse) where all information regarding the Cryptocurrency can be found eg. News, Crypto Exchanges, Crypto Statistics",
+    description:"A Cryptocurrency App (Cryptoverse) where all information regarding the Cryptocurrency can be found eg. Crypto News, Exchanges and Statistics",
     image: '/images/cryptoverse.jpeg',
     tags: [ 'React Js', ' Redux Toolkit', ' RapidAPI' ],
     source: 'https://cryptoverse-report.netlify.app/',
