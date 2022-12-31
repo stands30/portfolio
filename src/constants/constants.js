@@ -4,8 +4,8 @@ export const projects = [
     description:"A Web 3.0 App where one can send ethereum coins securely ",
     image: '/images/Krypt-App.png',
     tags: [ 'React Js', 'Solidity', 'MetaMask', 'HardHat' ],
-    source: 'https://printzonedigitalpartner.sltindustries.com/',
-    visit: 'https://printzonedigitalpartner.sltindustries.com/',
+    source: 'https://react-kryptoverse.netlify.app/',
+    visit: 'https://react-kryptoverse.netlify.app/',
     id: 1,
   },
   {
