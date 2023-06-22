@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link  rel="noreferrer" href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
           <DiCssdeck size="3rem" /> <span>Portfolio</span>
         </a>
@@ -16,29 +16,29 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link  rel="noreferrer" href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link  rel="noreferrer" href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>        
       <li id="aboutLink">
-        <Link href="#about" >
+        <Link  rel="noreferrer" href="#about" >
           <NavLink>About</NavLink>
         </Link>
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/stands30" target="_blank">
+        <SocialIcons  rel="noreferrer" href="https://github.com/stands30" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/stanley-dsouza-255650125" target="_blank">
+        <SocialIcons  rel="noreferrer" href="https://www.linkedin.com/in/stanley-dsouza-255650125" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/dsouzastanley/" target="_blank">
+        <SocialIcons  rel="noreferrer" href="https://www.instagram.com/dsouzastanley/" target="_blank">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
