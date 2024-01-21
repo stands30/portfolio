@@ -19,7 +19,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-            Building quality websites and applications with Laravel, Vue Js, React Js, Codeigniter and Wordpress.
+            Building quality websites and applications with Laravel, Vue Js, React Js, Go Lang, Codeigniter and Wordpress.
         </SectionText>
         <Button onClick={(e) => handleClick(e)} >Learn More</Button>
       </LeftSection>
