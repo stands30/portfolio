@@ -22,7 +22,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PHP, Laravel and MySQL Databases
+            PHP, Laravel, Go Lang and MySQL Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
